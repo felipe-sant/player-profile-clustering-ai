@@ -1,0 +1,25 @@
+{
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.indexing": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "git.enabled": true,
+  "files.exclude": {
+    ".vscode": true,
+    ".gitignore": true,
+    "README.md": true,
+    "**/__pycache__": true
+  },
+  "python.testing.pytestArgs": [
+    "."
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}
