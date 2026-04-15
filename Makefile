@@ -15,14 +15,14 @@ venv:
 	python3 -m venv .venv
 
 install:
-	.venv/bin/pip install --upgrade pip
-	.venv/bin/pip install -r requirements.txt
+	.venv/Scripts/python -m pip install --upgrade pip
+	.venv/Scripts/python -m pip install -r requirements.txt
 
 start:
-	.venv/bin/python src/index.py
+	.venv/Scripts/python src/index.py
 
 tests:
-	.venv/bin/python -m unittest discover -s test
+	.venv/Scripts/python -m unittest discover -s test
 
 clean:
 	rm -rf .venv
