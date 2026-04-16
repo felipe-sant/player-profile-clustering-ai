@@ -1,0 +1,5 @@
+calcular o K dnv, agora com o pensamento "estou medindo se o jogador é explosivo nessa partida" em vez de "estou medindo se o jogador é explosivo". (só faz o negocio para usar as partidas em vez da média)
+
+fazer a mesma coisa da linha de cima, mas pra calcular as classes agora, ai vc usa o K como número de classes.
+
+analisa os dados e ve se tem coisa boa :)
