@@ -1,0 +1,37 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestExample",
+        "kind": 6,
+        "importPath": "test.test_example",
+        "description": "test.test_example",
+        "peekOfCode": "class TestExample(unittest.TestCase):\n    def test_addition(self):\n        self.assertEqual(1 + 1, 2)\n    def test_subtraction(self):\n        self.assertEqual(5 - 3, 2)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test.test_example",
+        "documentation": {}
+    }
+]
