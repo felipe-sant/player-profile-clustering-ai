@@ -4,3 +4,4 @@ openpyxl
 matplotlib
 skl2onnx 
 onnx
+psycopg2-binary

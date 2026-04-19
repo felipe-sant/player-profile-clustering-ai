@@ -14,6 +14,9 @@ help:
 venv:
 	python3 -m venv .venv
 
+import:
+	.venv/Scripts/python scripts/importData.py
+
 install:
 	.venv/Scripts/python -m pip install --upgrade pip
 	.venv/Scripts/python -m pip install -r requirements.txt
